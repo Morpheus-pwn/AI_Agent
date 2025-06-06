@@ -7,7 +7,7 @@ This is a simple AI assistant built with [LangChain](https://github.com/langchai
 
 ## Features
 
-- Conversational AI powered by Google Gemini (`gemini-pro`)
+- Conversational AI powered by Google Gemini (`gemini-2.0-flash`)
 - Custom tool for telling random jokes
 - Command-line interface
 
@@ -16,8 +16,8 @@ This is a simple AI assistant built with [LangChain](https://github.com/langchai
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Morpheus-pwn/AI_Agent
+cd AI_Agent
 ```
 
 ### 2. Install dependencies
@@ -62,7 +62,7 @@ python main.py
 
 ## Model Selection
 
-This project uses the `gemini-pro` model, which is recommended for text-only chat with the Generative Language API key.
+This project uses the `gemini-2.0-flash` model, which is recommended for text-only chat with the Generative Language API key.
 
 If you want to use multimodal (text+image) capabilities, change the model to `gemini-pro-vision` in `main.py`:
 
@@ -79,11 +79,6 @@ Fetching a random joke...
 Assistant: Why did the scarecrow win an award? Because he was outstanding in his field!
 ```
 
-## License
-
-MIT License
-
----
 
 **Note:**  
 This project is for educational purposes. Make sure to keep your API key secure and do not share it publicly.
